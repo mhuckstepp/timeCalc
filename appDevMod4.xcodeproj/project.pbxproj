@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3361EAF3295E51FE002438C1 /* Preset Races Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3361EAF2295E51FE002438C1 /* Preset Races Section.swift */; };
+		3361EAF5295E5358002438C1 /* PredictRaceTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3361EAF4295E5358002438C1 /* PredictRaceTimes.swift */; };
 		33AC655A293E7A6200E37D46 /* appDevMod4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AC6559293E7A6200E37D46 /* appDevMod4App.swift */; };
 		33AC655C293E7A6200E37D46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AC655B293E7A6200E37D46 /* ContentView.swift */; };
 		33AC655E293E7A6200E37D46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33AC655D293E7A6200E37D46 /* Assets.xcassets */; };
 		33AC6561293E7A6200E37D46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33AC6560293E7A6200E37D46 /* Preview Assets.xcassets */; };
+		33AC6568293E97EC00E37D46 /* RaceTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AC6567293E97EC00E37D46 /* RaceTimes.swift */; };
+		33AC656A293FFEF000E37D46 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AC6569293FFEF000E37D46 /* Helpers.swift */; };
+		33AC656C29400A6500E37D46 /* RaceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AC656B29400A6500E37D46 /* RaceDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3361EAF2295E51FE002438C1 /* Preset Races Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Preset Races Section.swift"; sourceTree = "<group>"; };
+		3361EAF4295E5358002438C1 /* PredictRaceTimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictRaceTimes.swift; sourceTree = "<group>"; };
 		33AC6556293E7A6200E37D46 /* appDevMod4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appDevMod4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33AC6559293E7A6200E37D46 /* appDevMod4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appDevMod4App.swift; sourceTree = "<group>"; };
 		33AC655B293E7A6200E37D46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		33AC655D293E7A6200E37D46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33AC6560293E7A6200E37D46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		33AC6567293E97EC00E37D46 /* RaceTimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceTimes.swift; sourceTree = "<group>"; };
+		33AC6569293FFEF000E37D46 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		33AC656B29400A6500E37D46 /* RaceDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaceDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +62,14 @@
 			isa = PBXGroup;
 			children = (
 				33AC6559293E7A6200E37D46 /* appDevMod4App.swift */,
+				33AC6567293E97EC00E37D46 /* RaceTimes.swift */,
+				33AC656B29400A6500E37D46 /* RaceDetail.swift */,
 				33AC655B293E7A6200E37D46 /* ContentView.swift */,
+				3361EAF2295E51FE002438C1 /* Preset Races Section.swift */,
+				3361EAF4295E5358002438C1 /* PredictRaceTimes.swift */,
 				33AC655D293E7A6200E37D46 /* Assets.xcassets */,
 				33AC655F293E7A6200E37D46 /* Preview Content */,
+				33AC6569293FFEF000E37D46 /* Helpers.swift */,
 			);
 			path = appDevMod4;
 			sourceTree = "<group>";
@@ -138,7 +153,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				33AC655C293E7A6200E37D46 /* ContentView.swift in Sources */,
+				33AC6568293E97EC00E37D46 /* RaceTimes.swift in Sources */,
+				3361EAF3295E51FE002438C1 /* Preset Races Section.swift in Sources */,
 				33AC655A293E7A6200E37D46 /* appDevMod4App.swift in Sources */,
+				33AC656C29400A6500E37D46 /* RaceDetail.swift in Sources */,
+				3361EAF5295E5358002438C1 /* PredictRaceTimes.swift in Sources */,
+				33AC656A293FFEF000E37D46 /* Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,11 +282,11 @@
 		33AC6565293E7A6200E37D46 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"appDevMod4/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -290,11 +310,11 @@
 		33AC6566293E7A6200E37D46 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"appDevMod4/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
